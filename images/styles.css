@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 95vh;
+}
+.container{
+    position: relative;
+   
+}
+.container > img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.text {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align: center;
+}
+.text > h1 {
+    font-size: 4.2rem;
+    font-weight: lighter;
+    color: #66812B;
+    margin-bottom: -10px;
+}
+.text > p {
+    font-size: 1.8rem;
+    font-weight: lighter;
+    color: #66812B;
+
+}
+.container2 {
+    background-color: F9FBE7;
+    height: 100vh; 
+}
+.container2 > img {
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 44%;
+    border-radius: 50%;
+}
+.text2 > h2 {
+   text-align: center;
+   font-size: 2.5rem;
+    font-weight: lighter;
+    color: #66812B;
+    margin-top: 20px;
+}
+.text2 > p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+.skill {
+    background-color:  #F0EDD4;
+}
+.container3 {
+    display: block;
+    margin-bottom: 70px;
+}
+.skill {
+    margin-top: 100px;
+}
+.skill > h2 {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #66812B;
+    
+}
+.front-end {
+    display: flex;
+    width: 50%;
+    margin-left: 300px;
+    padding-top: 50px;
+}
+ .image1 {
+    height: 220px;
+    background: url("https://www.freepik.com/free-vector/hand-drawn-essay-illustration_39879148.htm#query=graphic%20image%20of%20black%20gir%20front%20end%20developer&position=0&from_view=search&track=ais&uuid=e0fca3c6-ba3d-4c84-b0dc-24605e3b3716");
+}
+.text3a {
+    font-size: 1.2rem;
+}
+.resume {
+    color: #FEA1A1;
+    font-weight: bold;
+}
+.resume:hover {
+    background-color: rgb(80, 29, 6);
+}
+
+.oils {
+    display: flex;
+    width: 50%;
+    margin-left: 300px;
+    padding-top: 50px;  
+}
+.text3a > h3 {
+    margin-top: -2px;
+}
+.image2 {
+    height: 150px;
+    background: url("https://www.freepik.com/free-photo/herbal-medicine-with-plants-arrangement_24239283.htm#query=oils&position=3&from_view=search&track=sph&uuid=b724be5b-7acb-4d0f-8377-1ebcd64be55f");
+}
+.text3b {
+    font-size: 1.2rem;
+}
+.text3b > h3 {
+   margin-top: -2px;
+}
+.text3b > p{
+    padding-bottom: 70px;
+    margin-bottom: 50px
+}
+  
+.contact {
+    margin-top: -70px;
+  
+}
+.container4 {
+    background-color: #ECCDB4;
+
+    padding-top: 20px;
+    text-align: center;
+    height: 60vh;
+}
+.container4 > h3 {
+   
+   font-size: 2.5rem;
+    font-weight: lighter;
+    color: #66812B;
+
+}
+.container4 > p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #66812B; 
+    padding-bottom: 10px;
+}
+.container4 > .smallp {
+    font-size: 1rem;
+    color: black;
+    padding-bottom: 30px;
+}   
+button {
+   background-color: #FEA1A1;
+   border: none;
+   padding: 10px;
+   width:150px;
+   border-radius: 10px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.container5 {
+    background-color: #FEA1A1;
+    height: 50vh;
+    padding-top: 5px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.social > li {
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 900px) {
+    .container {
+          position: relative;
+    }
+    .container > img {
+        object-fit: cover;
+       height: 350px;
+       width: 100%; 
+    }
+    .text {
+      position: absolute;
+      top: 10%;
+      left: 30%;
+      text-align: center;
+    }
+    .text > h1{
+      font-size: 3.9rem;
+    }
+    .text > p{
+        font-size: 1.5rem;
+    }
+    .container2 > img {
+        margin-left: 9rem;
+    }
+    .text2 {
+        text-align: center;
+    }
+    
+    .skill > h2 {
+        text-align: center;
+        margin-left: 5px;
+
+    }
+    
+    .front-end {
+        width: 70%;
+        display: block;
+        text-align: center;
+        margin-left: 60px;    
+  }
+  .front-end .image1{
+    margin-top: 70px;
+    
+  }
+  
+  .oils { 
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin-left: 60px;
+  }
+ .oils .image2{
+    margin-top: 30px;
+ }
+ 
+}
+
